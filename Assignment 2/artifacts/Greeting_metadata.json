@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getGreeting",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_greeting",
+						"type": "string"
+					}
+				],
+				"name": "setGreeting",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Assignment 2/q3.sol": "Greeting"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Assignment 2/q3.sol": {
+			"keccak256": "0x5e52858f72e77f916b9105cb42ffd19f949c2dae50ff45510fb0bd2f8c87da81",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7e494d34e78f8d9ef22907bd42a350934bc939bab42bea3d4431987014ac8640",
+				"dweb:/ipfs/QmNU5P1Tsffdp1TGDVpnZ6v4Pcj8sVs3QkHUhHrjkcQca5"
+			]
+		}
+	},
+	"version": 1
+}
