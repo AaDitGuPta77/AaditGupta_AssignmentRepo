@@ -11,9 +11,7 @@ This repository contains two main components:
 - [Donation Smart Contract](#donation-smart-contract)
   - [Features](#features)
   - [Contract Functions](#contract-functions)
-  - [Installation & Deployment](#installation--deployment)
   - [Example Usage](#example-usage)
-  - [License](#license)
 
 ## Crypto Hash Generator
 
@@ -61,20 +59,8 @@ This Solidity smart contract allows users to donate Ether to specific recipients
 4. **getTotalDonations(address recipient)**: Returns the total donations received by a specific recipient.
    - `recipients[recipient]`: The total amount available for withdrawal by the recipient.
 
-### Installation & Deployment
-
-1. **Install Dependencies**: Ensure you have Node.js, npm, and Hardhat installed for compiling, testing, and deploying the contract.
-   
-2. **Compile the Contract**: Use Hardhat to compile the Solidity contract.
-
-3. **Deploy the Contract**: Deploy it on your chosen network using Hardhat, Remix, or other deployment tools.
-
 ### Example Usage
 
 1. **Donate Ether**: Call the `donate()` function with a recipient address and an Ether value.
 2. **Withdraw Ether**: Recipients can call the `withdraw()` function to withdraw their donations.
 3. **Track Donations**: Use `getDonorBalance()` to see your total donations or `getTotalDonations()` to view the total donations for a recipient.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
